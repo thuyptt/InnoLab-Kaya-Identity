@@ -4,7 +4,7 @@
 \alias{KayaIdentity}
 \title{Kaya Identity}
 \usage{
-KayaIdentity(pop, gdp, enInt, carbInt)
+KayaIdentity(pop, gdp, enInt, carbInt, output_type)
 }
 \arguments{
 \item{pop}{Population size (in millions)}
@@ -14,6 +14,8 @@ KayaIdentity(pop, gdp, enInt, carbInt)
 \item{enInt}{Energy intensity (in Gigajoule/$1000GDP). Energy intensity is the energy needed to produce a certain amount of economic value}
 
 \item{carbInt}{Carbon intensity (in tonnes CO2/Gigajoule). Carbon intensity is the CO2 emitted for produced energy. This number depends on the energy mix used (coal, solar, . . . )}
+
+\item{output_type}{output options are "CO2" or "C" (for Carbon), where “CO2” is the default}
 }
 \value{
 The CO2 emissions gets printed to the console
@@ -25,5 +27,5 @@ The Kaya Identity is an equation that expresses yearly CO2 emissions as a produc
 The Kaya Identity can be computed as: co2 = pop * gdp * enInt * carbInt
 }
 \examples{
-KayaIdentity(pop=82.4, gdp=44, enInt=5, carbInt=0.05) # co2 for Germany: 906.4
+KayaIdentity(pop=82.4, gdp=44, enInt=5, carbInt=0.05, output_type="CO2") # co2 for Germany: 906.4
 }
