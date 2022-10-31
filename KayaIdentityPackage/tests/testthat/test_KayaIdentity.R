@@ -34,3 +34,13 @@ test_that("output is correct 2", {
   carbInt <-  0.05
   expect_equal(KayaIdentity(pop, gdp, enInt, carbInt), pop * gdp * enInt * carbInt)
 })
+
+test_that("output_type = C",{
+  pop <- 82.4
+  gdp <- 44
+  enInt <- 5
+  carbInt <-  0.05
+  co2 <- pop*gdp*enInt*carbInt
+  output_type = "C"
+  expect_equal(KayaIdentity(pop, gdp, enInt, carbInt, output_type), 3.67*co2)
+})
