@@ -22,6 +22,7 @@ The CO2 emissions gets printed to the console
 }
 \description{
 The Kaya Identity is an equation that expresses yearly CO2 emissions as a product of certain four factors
+For more information, see the following Wikipedia link: https://en.wikipedia.org/wiki/Kaya_identity
 }
 \details{
 The Kaya Identity can be computed as: co2 = pop * gdp * enInt * carbInt

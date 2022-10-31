@@ -9,6 +9,7 @@ library(checkmate)
 #' Kaya Identity
 #'
 #' The Kaya Identity is an equation that expresses yearly CO2 emissions as a product of certain four factors
+#' For more information, see the following Wikipedia link: https://en.wikipedia.org/wiki/Kaya_identity
 #'
 #' @param pop Population size (in millions)
 #' @param gdp GDP per capita (in 1000$/person)
