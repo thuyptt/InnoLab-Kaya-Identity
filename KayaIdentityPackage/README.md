@@ -3,6 +3,7 @@
 
 <!-- badges: start -->
 [![R-CMD-check](https://github.com/thuyptt/InnoLab-Kaya-Identity/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/thuyptt/InnoLab-Kaya-Identity/actions/workflows/R-CMD-check.yaml)
+[![Codecov test coverage](https://codecov.io/gh/thuyptt/InnoLab-Kaya-Identity/branch/main/graph/badge.svg)](https://app.codecov.io/gh/thuyptt/InnoLab-Kaya-Identity?branch=main)
 <!-- badges: end -->
 
 The goal of KayaIdentityPackage is to ...
