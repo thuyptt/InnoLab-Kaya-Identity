@@ -45,6 +45,11 @@ KayaIdentity <- function(pop, gdp, enInt, carbInt, output_type){
 # document the function:
 # devtools::document(roclets = c('rd', 'collate', 'namespace'))
 
+
 # load the package (2 options):
 # library(KayaIdentityPackage)
 # devtools::load_all(".")
+
+
+# calling the help site for the KayaIdentity funtion from the KayaIdentityPackage
+# ?KayaIdentity
